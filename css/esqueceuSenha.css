@@ -1,0 +1,84 @@
+/* Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4e4;
+    color: #01457d;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffbd59;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Ícone */
+.violao-icon img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+/* Títulos */
+h1 {
+    font-size: 24px;
+    color: #7d013f;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #01457d;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button {
+    background-color: #7d013f;
+    color: #fff4e4;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #01457d;
+    color: #ffbd59;
+}
+
+/* Link */
+.texto-flutuante p a {
+    color: #7d013f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.texto-flutuante p a:hover {
+    text-decoration: underline;
+}

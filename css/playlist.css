@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff4e4;
+    color: #7d013f;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7d013f;
+    padding: 30px 50px;
+    color: #ffbd59;
+}
+
+header .logo {
+    font-size: 2.5em; 
+    font-family:'Brush Script MT', cursive;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffbd59;
+    font-size: 1.2em;
+}
+
+.home-icon {
+    text-decoration: none;
+    color: #fff4e4;
+    font-size: 2em; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: calc(100vh - 120px);
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.buttons button {
+    background-color: #ffbd59;
+    border: none;
+    border-radius: 25px;
+    width: 450px; 
+    padding: 20px; 
+    font-size: 1.4em; 
+    cursor: pointer;
+    color: #7d013f;
+    transition: background-color 0.3s;
+    text-align: center; 
+}
+
+.buttons button:hover {
+    background-color: #fc9e11;
+}
+
+.violao {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 150px;
+    height: auto; 
+}

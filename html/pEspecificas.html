@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceci Roman</title>
+    <link rel="stylesheet" href="../css/pEspecificas.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Ceci Roman <span class="note">♪</span></div>
+        <nav>
+            <a href="playlist.html">Playlists</a>
+            <a href="questionario.html">Questionario</a>
+            <a href="telaApresentacao.html" class="home-icon">🏠</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="menu">
+            <form action="../php/pExatas.php" method="GET">
+                <button type="submit" class="menu-button">Exatas</button>
+            </form>
+            <form action="../php/pHumanas.php" method="GET">
+                <button type="submit" class="menu-button">Humanas</button>
+            </form>
+            <form action="../php/pRedacao.php" method="GET">
+                <button type="submit" class="menu-button">Redação</button>
+            </form>
+            <form action="../php/pNatureza.php" method="GET">
+                <button type="submit" class="menu-button">Natureza</button>
+            </form>
+            <form action="../php/pLinguagens.php" method="GET">
+                <button type="submit" class="menu-button">Linguagens</button>
+            </form>
+        </section>        
+        <section class="image-container">
+            <img src="../img/violaoAzul.png" alt="Violao" class="violaoAzul-img">
+        </section>
+    </main>
+</body>
+</html>

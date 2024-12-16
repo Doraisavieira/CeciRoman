@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff4e4;
+}
+
+
+.header {
+    width: 100%;
+    background-color: #ffbd59;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header .note {
+    font-size: 40px;
+}
+
+.title {
+    font-size: 5.5em;
+    color: #01457d;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.Violao-icon {
+    position: fixed;
+    left: 20px; 
+    bottom: 20px;
+}
+
+.Violao-icon img {
+    width: 200px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.button {
+    width: 150px;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #ffbd59;
+    color: #fff4e4;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #fc9e11;
+}

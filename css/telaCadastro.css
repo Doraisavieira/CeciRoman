@@ -1,0 +1,105 @@
+body {
+    background-color: #fff4e4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.Violao-icon {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.Violao-icon img {
+    height: 300px;
+}
+
+.senhas {
+    color: #7d013f;
+    font-size: 0.9em;
+    width: 200px;
+    height: auto; 
+    white-space: nowrap; 
+    position: absolute;
+    left: 10%; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.senhas p {
+    position: relative;
+    top: 10px; 
+}
+
+.senhas ul {
+    padding-left: 15px;
+}
+
+
+.senhas li::before {
+    color: #7d013f;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.formulario {
+    background-color: #ffbd59;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-forms {
+    font-weight: bold;
+    color: #01457d;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #7d013f;
+    color: #fff4e4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #650133;
+}
+
+.texto-flutuante {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.texto-flutuante a {
+    color: #01457d;
+    text-decoration: none;
+}
+
+.texto-flutuante a:hover {
+    text-decoration: underline;
+}

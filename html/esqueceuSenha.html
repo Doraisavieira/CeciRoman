@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Recuperar Senha - Ceci Roman</title>
+    <link rel="stylesheet" href="../css/esqueceuSenha.css">
+</head>
+<body>
+    <div class="container">
+        <div class="violao-icon">
+            <img src="../img/violao.png" alt="Violão">
+        </div>
+
+        <h1>Recuperar Senha</h1>
+        <p>Digite o email associado à sua conta para receber instruções de recuperação.</p>
+
+        <form action="../php/enviarEmail.php" method="POST">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="input-field" placeholder="Digite seu email" required>
+            </div>
+            <button type="submit" class="button">Enviar</button>
+        </form>
+
+        <div class="texto-flutuante">
+            <p><a href="telaLogin.html">Voltar para Login</a></p>
+        </div>
+    </div>
+</body>
+</html>

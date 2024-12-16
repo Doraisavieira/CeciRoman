@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceci Roman</title>
+    <link rel="stylesheet" href="../css/questionario.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Ceci Roman <span class="note">♪</span></div>
+        <nav>
+            <a href="playlist.html">Playlists</a>
+            <a href="questionario.html">Questionário</a>
+            <a href="perfil.html">Meu perfil</a>
+            <a href="telaApresentacao.html" class="home-icon">🏠</a>
+        </nav>
+    </header>
+    <main>
+        <div class = container>
+        <section class="questionario">
+            <h1>Responda o questionário a seguir para descobrir o genero musical que mais te representa.</h1>
+
+        <form action="../php/processarQuestionario.php" method="POST">
+
+            <h2>1. Qual tipo de ambiente faz você se sentir mais conectado com a música?</h2>
+            <div class="options">
+                <label><input type="radio" name="q1" value="a"> Um espaço vibrante, cheio de movimento e energia</label><br>
+                <label><input type="radio" name="q1" value="b"> Um lugar tranquilo, onde você possa relaxar</label><br>
+                <label><input type="radio" name="q1" value="c"> Um cenário que traga memórias ou sentimentos do dia a dia</label><br>
+                <label><input type="radio" name="q1" value="d"> Uma atmosfera intensa e cheia de atitude</label><br>
+                <label><input type="radio" name="q1" value="e"> Um momento de descontração com boas companhias</label>
+            </div>
+
+            <h2>2. Quando você pensa em uma música perfeita, o que ela te faz sentir?</h2>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> Uma vontade de dançar ou se mexer</label><br>
+                <label><input type="radio" name="q2" value="b"> Paz, conforto e tranquilidade</label><br>
+                <label><input type="radio" name="q2" value="c"> Emoção e conexão com histórias ou experiências pessoais</label><br>
+                <label><input type="radio" name="q2" value="d"> Adrenalina e entusiasmo</label><br>
+                <label><input type="radio" name="q2" value="e"> Nostalgia ou alegria simples</label>
+            </div>
+
+            <h2>3. O que mais te atrai em uma melodia?</h2>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> Ritmos dinâmicos e eletrizantes</label><br>
+                <label><input type="radio" name="q3" value="b"> Sons delicados que criam um clima acolhedor</label><br>
+                <label><input type="radio" name="q3" value="c"> Harmonias que lembram momentos especiais</label><br>
+                <label><input type="radio" name="q3" value="d"> Guitarras marcantes e batidas fortes</label><br>
+                <label><input type="radio" name="q3" value="e"> Instrumentos tradicionais que trazem familiaridade e emoção</label>
+            </div>
+
+            <h2>4. Em um evento social, qual seria seu papel típico?</h2>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> No centro da pista de dança, contagiando a todos</label><br>
+                <label><input type="radio" name="q4" value="b"> Preferindo um canto mais reservado, apreciando a música</label><br>
+                <label><input type="radio" name="q4" value="c"> Contando histórias ou compartilhando sentimentos enquanto ouve algo significativo</label><br>
+                <label><input type="radio" name="q4" value="d"> Vibrando com a energia de uma apresentação ao vivo</label><br>
+                <label><input type="radio" name="q4" value="e"> Conversando e cantando junto com amigos</label>
+            </div>
+
+            <h2>5. Qual tipo de mensagem você prefere em uma letra de música?</h2>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> Algo divertido, que te faça esquecer dos problemas</label><br>
+                <label><input type="radio" name="q5" value="b"> Palavras suaves e reconfortantes</label><br>
+                <label><input type="radio" name="q5" value="c"> Histórias que traduzem o cotidiano</label><br>
+                <label><input type="radio" name="q5" value="d"> Temas intensos sobre desafios ou superação</label><br>
+                <label><input type="radio" name="q5" value="e"> Mensagens simples que celebram momentos felizes</label>
+            </div>
+
+            <h2>6. Se você fosse criar uma playlist para uma viagem, qual seria a principal característica dela?</h2>
+            <div class="options">
+                <label><input type="radio" name="q6" value="a"> Cheia de batidas contagiantes</label><br>
+                <label><input type="radio" name="q6" value="b"> Músicas que combinem com a paisagem e tragam calma</label><br>
+                <label><input type="radio" name="q6" value="c"> Histórias envolventes que acompanhem o ritmo da estrada</label><br>
+                <label><input type="radio" name="q6" value="d"> Sons poderosos que energizem a viagem</label><br>
+                <label><input type="radio" name="q6" value="e"> Canções que evoquem boas memórias</label>
+            </div>
+
+            <h2>7. Qual destas descrições combina mais com sua forma de pensar ou aprender?</h2>
+            <div class="options">
+                <label><input type="radio" name="q7" value="a"> Eu gosto de me expressar e explorar criatividade</label><br>
+                <label><input type="radio" name="q7" value="b"> Resolver desafios lógicos me atrai</label><br>
+                <label><input type="radio" name="q7" value="c"> Entender fenômenos naturais me fascina</label><br>
+                <label><input type="radio" name="q7" value="d"> Compreender história e impacto social é importante</label><br>
+                <label><input type="radio" name="q7" value="e"> Organizar ideias e apresentar argumentos é algo que aprecio</label>
+            </div>
+
+            <h2>8. Em qual dessas situações você mais gostaria de ouvir música?</h2>
+            <div class="options">
+                <label><input type="radio" name="q8" value="a"> Em uma festa animada</label><br>
+                <label><input type="radio" name="q8" value="b"> Em um momento relaxante</label><br>
+                <label><input type="radio" name="q8" value="c"> Durante uma atividade introspectiva</label><br>
+                <label><input type="radio" name="q8" value="d"> Em um show ao vivo</label><br>
+                <label><input type="radio" name="q8" value="e"> Com os amigos ao redor de uma roda de conversa</label>
+            </div>
+        </form>
+            <button type="submit">Enviar respostas</button>
+        </section>
+    </div>
+        <!--<div class="violao">
+            <img src="../img/violaoAzul.png" alt="Violão" class="violaoAzul-img">
+        </div>-->
+    </main>
+</body>
+</html>

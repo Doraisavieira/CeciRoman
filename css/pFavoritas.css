@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff4e4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7d013f;
+    color: #ffbd59;
+    padding: 20px 40px;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 2.5em;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-links a {
+    color: #ffbd59;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.menu-links a:hover {
+    text-decoration: underline;
+}
+
+.menu-links .home-icon {
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 100px);
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.playlist-button {
+    background-color: #ffbd59;
+    border: none;
+    border-radius: 25px;
+    width: 450px; 
+    padding: 20px; 
+    font-size: 1.4em; 
+    cursor: pointer;
+    color: #7d013f;
+    transition: background-color 0.3s;
+    text-align: center; 
+}
+.playlist-button .button :hover{
+    background-color: #fc9e11;
+}
+
+.heart-icon {
+    font-size: 20px;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+.heart-checkbox {
+    display: none;
+}
+
+.heart-checkbox:checked + .heart-icon {
+    color: #7d013f;
+}
+
+.heart-checkbox:not(:checked) + .heart-icon {
+    color: gray;
+}
+
+.image-container {
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+}
+
+.violaoAzul-img {
+    width: 180px;
+    height: auto;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}

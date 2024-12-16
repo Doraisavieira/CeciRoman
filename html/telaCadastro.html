@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/telaCadastro.css">
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+    <div class="Violao-icon">
+        <img src="../img/violao.png" alt="Violao">
+    </div>
+    
+    <div class="senhas">
+        <p>Sua senha deve conter:</p>
+        <ul>
+            <li>No mínimo seis dígitos</li>
+            <li>No mínimo um caractere especial</li>
+            <li>No mínimo um número</li>
+            <li>No mínimo uma letra maiúscula</li>
+        </ul>
+    </div>
+    
+    <div class = "formulario">
+    <form action="../php/cadastrarUsuario.php" method="POST">
+        
+        <div class="campo-forms">Email:</div>
+        <input type="email" class="input-field" name="email" required>
+    
+        <div class="campo-forms">Senha:</div>
+        <input type="password" class="input-field" name="senha" required>
+    
+        <div class="campo-forms">Nome de usuário:</div>
+        <input type="text" class="input-field" name="nome" required>
+    
+        <div class="campo-forms">Confirme sua senha:</div>
+        <input type="password" class="input-field" name="confirmar_senha" required>
+    
+        <button type="submit" class="button">Cadastrar</button>
+
+        <div class="texto-flutuante">
+            <p><a href="telaLogin.html">Já tem uma conta?</a></p>
+        </div>
+    </form>
+        
+    </div> 
+</body>
+</html>
